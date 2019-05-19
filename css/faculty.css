@@ -1,0 +1,38 @@
+.faculty{
+    margin: 25px;
+}
+.faculty h1{
+    margin-bottom: 25px;
+}
+.faculty .faculty-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.faculty-content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.faculty-content .name{
+    margin-bottom: 15px;
+}
+.faculty-content .advisory{
+    border-radius: 25px;
+    background-color: orange;
+    color: black;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+.faculty-adviser{
+  margin-left: -200px;
+}
+.faculty .expert{
+    text-align: center;
+    color: #00cccc;
+}

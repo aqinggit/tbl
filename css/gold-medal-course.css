@@ -1,0 +1,31 @@
+.gm-course{
+    margin: 25px;
+
+}
+.gm-course .photo img{
+    border-radius: 25px 25px 0 0;
+    height: 300px;
+}
+.photo{
+    height: 300px;
+
+}
+.gm-course-content{
+    padding: 30px;
+    line-height: 55px;
+    border: 1px #dddddd solid;
+    border-radius: 0 0 25px 25px;
+}
+.gm-course-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.gm-course-title .reply{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+}
