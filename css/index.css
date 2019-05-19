@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1198850 */
+    src: url('//at.alicdn.com/t/font_1198850_nzneb1atov.eot');
+    src: url('//at.alicdn.com/t/font_1198850_nzneb1atov.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1198850_nzneb1atov.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1198850_nzneb1atov.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1198850_nzneb1atov.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1198850_nzneb1atov.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fs36 {
+    font-size: 36px;
+}
+
+.fs32 {
+    font-size: 32px;
+}
+
+.fs28 {
+    font-size: 28px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.nav .logo {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav .menu {
+    padding-left: 25px;
+    line-height: 50px;
+}
+
+.icon36 {
+    font-size: 36px;
+}
+
+.nav .name {
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.nav .nav-middle {
+    margin: 0 auto;
+    display: flex;
+}
+
+.photo,
+.photo img {
+    width: 100%;
+    height: 400px;
+}
+
+.list {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px 25px 40px 25px;
+    box-shadow: 0px 0px 20px #888888;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.list-content ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.more {
+    float: right;
+}
+
+.early-cource {
+    margin: 20px 25px 30px 25px;
+}
+
+.early-cource .title {
+    margin-bottom: 15px;
+}
+
+.course-detail img {
+    width: 300px;
+    height: 300px;
+}
+
+.course-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.color999 {
+    color: #999999;
+}
+
+.course-detail span {
+    width: 300px;
+}
+
+.middle-photo {
+    height: 250px;
+    margin: 40px 25px;
+
+}
+
+.middle-photo img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.feature-course {
+    margin: 40px 25px 20px 25px;
+
+
+}
+
+.feature-course img {
+    width: 170px;
+    height: 170px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.feature-course .content {
+    display: flex;
+}
+
+.info {
+    line-height: 50px;
+}
+
+.gold-medal-course {
+    margin: 40px 25px 30px 25px;
+}
+
+.gold-medal-course img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.gold-medal-course .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gold-medal-course .image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-type {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.course-type span {
+    width: 250px;
+}
+
+.image .image-box {
+    width: 200px;
+    text-align: center;
+
+}
+.image-box img{
+    margin-bottom: 15px;
+}
