@@ -1,7 +1,79 @@
-.nav .bg-photo{
+.nav .bg-photo {
     width: 100%;
     height: 639px;
 }
-.nav .icon1{
 
+.topic img {
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+    margin-top: 28px;
+}
+
+.special-topic .topic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-topic .topic-box1 {
+    padding: 28px 27px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #FDFCFF;
+    background: rgba(253, 252, 255, 1);
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.special-topic .topic-box2 {
+    background: #FDFCFF;
+    background: rgba(253, 252, 255, 1);
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin-top: 167px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.topic-box2 img {
+    width: 22%;
+    height: 22%;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+
+.topic-box2 .name {
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+    color: rgb(0, 0, 0);
+    margin: 26px 346px 15px 51px;
+}
+
+.topic-box2 .position {
+    background: #21D68C;
+    background: rgba(33, 214, 140, 1);
+    opacity: 0.8;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    filter: alpha(opacity=80) progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    font-size: 26px;
+    text-align: center;
+    margin: 15px 255px 25px 50px;
+
+}
+
+.topic-box2 .ability {
+    font-size: 26px;
+    line-height: 44px;
+    color: #666666;
+    color: rgb(102, 102, 102);
+    margin-left: 50px;
+    margin-bottom: 45px;
 }
