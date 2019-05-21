@@ -57,3 +57,6 @@
 .read.detail{
     display: flex;
 }
+.article-space{
+    margin: 25px;
+}

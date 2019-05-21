@@ -1,0 +1,36 @@
+.parenting{
+
+}
+.parenting-space{
+    margin: 25px;
+}
+.parenting .tlb-img{
+    margin-bottom: 30px;
+}
+.parenting .title-item{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.type{
+    border: 1px #00cccc solid;
+    color: #00cccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+.parenting .detail{
+    margin-bottom: 20px;
+}
+.parenting .recommend{
+    display: flex;
+    justify-content: space-between;
+}
+.list-content ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+.list-content ul li span{
+    color: #6699ff;
+}

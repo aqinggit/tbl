@@ -1,0 +1,11 @@
+.about-tbl {
+    background-color: #dddddd;
+}
+.about-tbl .nav-img {
+    background-image : url(../img/nav.png);
+    background-repeat : no-repeat;
+    width: 100%;
+    height : 100px;
+    background-size:cover;
+
+}
