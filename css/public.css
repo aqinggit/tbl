@@ -25,6 +25,11 @@
     overflow: hidden;
 }
 
+body{
+    min-width: 320px;
+    margin: 0 auto;
+
+}
 
 
 .fs48 {

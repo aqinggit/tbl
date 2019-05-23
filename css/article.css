@@ -5,14 +5,12 @@
 
 .article-list-container
 {
-    max-width: 750px;
-    margin: 0 auto;
+    /*max-width: 750px;*/
+    /*margin: 0 auto;*/
     border-bottom: 8px #f8f8f8 solid;
 
 }
 .article-detail{
-    max-width: 750px;
-    margin: 0 auto;
     border-bottom: 8px #f8f8f8 solid;
 }
 
