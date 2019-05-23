@@ -1,27 +1,31 @@
-.question-list-content{
+.question-list-content {
     /*max-width: 750px;*/
     margin: 0 auto;
     border-bottom: 8px #f8f8f8 solid;
 }
-.question-detail-container{
+
+.question-detail-container {
     /*max-width: 750px;*/
     margin: 0 auto;
 }
 
-.weui-navbar__item{
+.weui-navbar__item {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 28px;
     border: none;
 }
-.weui-navbar__item:active{
+
+.weui-navbar__item:active {
     text-decoration: none;
     background-color: #FFFFFF;
 }
-.weui-navbar__item:hover{
+
+.weui-navbar__item:hover {
     text-decoration: none;
     background-color: #FFFFFF;
 }
+
 .weui-navbar__item.weui-bar__item--on {
     color: #333333;
     background-color: #FFFFFF;
@@ -30,7 +34,8 @@
     font-size: 28px;
     /*width: 144px;*/
 }
-.weui-navbar__item.weui-bar__item--on:active{
+
+.weui-navbar__item.weui-bar__item--on:active {
     text-decoration: none;
 }
 
@@ -39,22 +44,38 @@
 
 
 }
-.weui-navbar{
+
+.weui-navbar {
     height: 83px;
     margin: 0 20px;
 }
 
-.question-list .photo{
+.question-list {
+    width: 100%;
+}
+
+.question-list .photo {
     margin-top: 25px;
 }
-.question-list .jing{
+
+.question-list .jing {
     background-color: red;
     border-radius: 5px;
     color: #FFFFFF;
     padding: 5px;
 }
 
-.source1 {
+.question-list .question-img {
+    padding: 25px;
+}
+
+.question-list .question-img img{
+    height: 240px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.question-list .source1 {
     width: 330px;
     height: 23px;
     display: flex;
@@ -64,7 +85,8 @@
     margin-bottom: 31px;
 
 }
-.source2 {
+
+.question-list .source2 {
     width: 330px;
     height: 23px;
     display: flex;
@@ -75,40 +97,42 @@
 
 }
 
-.source .name {
-    /*margin-right: 25px;*/
-    /*margin-bottom: 15px;*/
-}
-
-.question-list .jing{
+.question-list .jing {
     margin-right: 12px;
     margin-left: 25px;
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 6px;
 }
- .icon1{
-  margin-right: 275px;
-     margin-top: 31px;
-     margin-left: 30px;
+
+.question-list .zj-question {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.icon1 {
+    margin-right: 275px;
+    margin-top: 31px;
+    margin-left: 30px;
 
 }
- .question-detail-container .question-title1{
-     margin-left: 26px;
-     margin-top: 26px;
-     margin-bottom: 30px;
 
- }
+.question-detail-container .question-title1 {
+    margin-left: 26px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+
+}
 
 
-.question-title
-{
+.question-title {
     margin-left: 25px;
     margin-top: 26px;
     margin-bottom: 15px;
 
 }
-.discuss{
+
+.discuss {
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -117,29 +141,20 @@
     display: flex;
     justify-content: space-between;
 }
-.zj-question{
-    margin-left: 25px;
-    margin-bottom: 30px;
+
+
+.col2CB5A9 {
+    color: #2CB5A9;
 }
 
-.question-img img{
-    width: 701px;
-    height: 241px;
-    border-radius: 15px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-top: 26px;
-}
-.col2CB5A9{
-    color : #2CB5A9;
-}
-.question-detail1{
+.question-detail1 {
     margin-left: 25px;
     line-height: 44px;
     height: 80px;
     margin-right: 25px;
 }
-.question-detail2{
+
+.question-detail2 {
     margin-left: 25px;
     line-height: 44px;
     height: 340px;
@@ -148,7 +163,7 @@
     padding-bottom: 25px;
 }
 
-.question-detail3{
+.question-detail3 {
 
     line-height: 44px;
     height: 165px;
@@ -156,7 +171,7 @@
 }
 
 
-.question-detail-container .source3{
+.question-detail-container .source3 {
     display: flex;
     margin-left: 25px;
     width: 329px;
@@ -164,7 +179,8 @@
     justify-content: space-between;
     margin-bottom: 26px;
 }
-.question-detail-container .source4{
+
+.question-detail-container .source4 {
     display: flex;
     margin-left: 25px;
     width: 300px;
@@ -172,15 +188,17 @@
     justify-content: space-between;
     margin-bottom: 28px;
 }
-.reply{
-    font-size : 32px;
-    line-height : 43px;
-    color : #2CB5A9;
+
+.reply {
+    font-size: 32px;
+    line-height: 43px;
+    color: #2CB5A9;
     margin-top: 25px;
     margin-left: 25px;
     margin-bottom: 30px;
 }
-.question-detail .best-reply{
+
+.question-detail .best-reply {
     background-color: antiquewhite;
     border-radius: 10px;
     color: black;
@@ -188,6 +206,7 @@
     height: 31px;
     text-align: center;
 }
-.question-detail .reply-content{
+
+.question-detail .reply-content {
     height: 332px;
 }
