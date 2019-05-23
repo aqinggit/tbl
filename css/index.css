@@ -1,61 +1,95 @@
 
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.fs36 {
-    font-size: 36px;
-}
-
-.fs32 {
-    font-size: 32px;
-}
-
-.fs28 {
-    font-size: 28px;
-}
-
-.container {
+.index-container {
     width: 100%;
     margin: 0 auto;
-    /*max-width: 750px;*/
-    background-color: #dddddd;
 }
-
-.nav {
-    display: flex;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.index-container .nav{
+    border-bottom: none;
+    position: absolute;
     width: 100%;
+    height: 51px;
+    top: 0;
+    /*line-height: 60px;*/
+    /*text-align: center;*/
+    background: rgba(0, 0, 0, .2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*opacity: 0.3;*/
+}
+.index-container .index-photo img{
+    width: 100%;
+    height: 577px;
+}
+.index-container .index-photo{
+    position: absolute;
+}
+.reserve-content{
+    position: relative;
+    width: 380px;
+    margin: 15px auto;
+    bottom: 0;
+    top: -319px;
+
 }
 
-.nav .logo {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+.reserve-content .panel{
+    border-radius:5px;
+    height:335px;
+
+}
+.reserve-content .panel .group{
+    margin:20px 10px 20px 10px;
+}
+.reserve-content .panel .group ul{
+    list-style: none;
+    margin-top:10px;
 }
 
-.nav .menu {
-    padding-left: 25px;
-    line-height: 50px;
+.reserve-content .panel .group ul li{
+    margin-top:2px;
 }
 
-.icon36 {
-    font-size: 36px;
+.reserve-content .panel .group ul li input{
+    line-height:22px;
+    width:330px;
+    font-size: 14px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: #f8f8f8;
+    border: none;
+    padding-left: 15px;
+    margin-left: 7px;
 }
 
-.nav .name {
-    line-height: 50px;
-    margin-left: 10px;
+
+
+
+.reserve-content .panel .login{
+    text-align: center;
+    margin-top:-8px;
+
+
+}
+.reserve-content button{
+    width:340px;
+    height:48px;
+    background-color:#10AEFF;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 30px;
+}
+.nav .index-logo{
+    width: 100px;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: -40px;
+
 }
 
-.nav .nav-middle {
-    margin: 0 auto;
-    display: flex;
-}
 
 
 .more {
@@ -78,7 +112,7 @@
 .early-cource .title .more{
     font-size : 24px;
     color : #666666;
-    color : rgb(102, 102, 102);
+
 }
 .course-detail img {
     width: 223px;

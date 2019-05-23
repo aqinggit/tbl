@@ -10,9 +10,7 @@
     background-color: #F2F2F2;
 }
 
-question-detail-container.question-img{
 
-}
 
 .weui-navbar__item {
     color: #333333;
@@ -277,4 +275,6 @@ question-detail-container.question-img{
   border-radius : 8px;
   -moz-border-radius : 8px;
   -webkit-border-radius : 8px;
+    padding: 3px 6px;
+    margin-left: 9px;
 }
