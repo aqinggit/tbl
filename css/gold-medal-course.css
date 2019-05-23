@@ -1,31 +1,35 @@
-.gm-course{
-    margin: 25px;
+.gm-course {
+    padding: 12px;
 
 }
-.gm-course .photo img{
-    border-radius: 25px 25px 0 0;
-    height: 300px;
-}
-.photo{
-    height: 300px;
 
+.gm-course .photo img {
+    border-radius: 13px 13px 0 0;
+    height: 121px;
+    width: 100%;
 }
-.gm-course-content{
-    padding: 30px;
-    line-height: 55px;
+
+.gm-course-content {
+    padding: 15px;
+    line-height: 28px;
     border: 1px #dddddd solid;
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 12px 12px;
+    height: 91px;
 }
-.gm-course-title{
+
+.gm-course-title {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
-.gm-course-title .reply{
+
+.gm-course-title .reply {
     background-color: antiquewhite;
     color: black;
-    border-radius: 25px;
-    width: 150px;
+    border-radius: 15px;
+    width: 71px;
+    height: 29px;
     text-align: center;
+    padding: 3px 6px;
 }
