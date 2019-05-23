@@ -31,5 +31,61 @@
     width: 71px;
     height: 29px;
     text-align: center;
-    padding: 3px 6px;
+    padding: 0 6px;
+}
+/*.weui-navbar__item.weui-bar__item--on {*/
+/*    color: #333333;*/
+/*    background-color: #FFFFFF;*/
+/*    border-bottom: 2px orange solid;*/
+/*    text-decoration: none;*/
+/*    font-size: 14px;*/
+/*    !*width: 144px;*!*/
+/*}*/
+/*.gm-course-nav .gm-course-nav-item{*/
+/*    height: 41px;*/
+
+/*}*/
+/*.weui-navbar__item{*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*}*/
+.weui-navbar__item {
+    color: #cccccc;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.weui-navbar__item:active {
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.weui-navbar__item:hover {
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.weui-navbar__item.weui-bar__item--on {
+    color: #333333;
+    background-color: #FFFFFF;
+    border-bottom: 2px orange solid;
+    text-decoration: none;
+    font-size: 14px;
+    /*width: 144px;*/
+}
+
+.weui-navbar__item.weui-bar__item--on:active {
+    text-decoration: none;
+}
+
+.weui-tab {
+    /*max-width: 750px;*/
+}
+
+.weui-navbar {
+    height: 42px;
+    margin: 0 10px;
 }
