@@ -29,7 +29,7 @@
     display: flex;
     /*justify-content: space-between;*/
 }
-.article-info .title {
+.article-content .article-info .title {
     font-size : 30px;
     height: 29px;
     color : #333333;
@@ -38,7 +38,7 @@
     padding: 0;
 
 }
-.article-info .detail{
+.article-content .article-info .detail{
     font-size : 24px;
     line-height : 36px;
     height: 60px;
@@ -49,7 +49,7 @@
 
 }
 
-.article-info .ctime{
+.article-content .article-info .ctime{
     font-size : 20px;
     color : #999999;
     height: 17px;
@@ -57,13 +57,20 @@
 
 
 }
-.article-img{
+.article-content .article-img{
     width: 161px;
     height: 161px;
     border-radius: 8px;
     margin: 24px 30px 27px 24px;
 }
-.article-img1{
+.article-content .article-img {
+    width: 161px;
+    height: 161px;
+    border-radius: 8px;
+    margin: 24px 30px 27px 24px;
+}
+
+.article-list .article-img1{
     width: 161px;
     height: 161px;
     border-radius: 8px;
@@ -102,8 +109,14 @@
     margin-right: 25px;
 }
 
-.index-photo{
-    margin: 25px;
+
+.article-detail .index-photo{
+    padding: 25px;
+}
+.article-detail .index-photo img{
+    height: 351px;
+    width: 100%;
+    border-radius: 15px;
 }
 .article-detail .read{
     font-size : 36px;
@@ -111,17 +124,17 @@
     margin-left: 27px;
     margin-top: 78px;
 }
-.article-list{
+.article-detail .article-list{
     display: flex;
     height: 161px;
     margin-bottom: 24px;
 }
-.article-list-info .title1{
+.article-list .article-list-info .title1{
     font-size : 30px;
     margin-top: 43px;
     /*margin-bottom: 31px;*/
 }
-.article-list-info .detail1{
+.article-list .article-list-info .detail1{
     font-size : 26px;
     line-height : 43px;
     color : #999999;
