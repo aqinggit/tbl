@@ -1,11 +1,18 @@
-.about-tbl {
-    background-color: #dddddd;
+.about{
+    margin: 0 12px;
 }
-.about-tbl .nav-img {
-    background-image : url(../img/nav.png);
-    background-repeat : no-repeat;
-    width: 100%;
-    height : 100px;
-    background-size:cover;
 
+.about.plan{
+    height: 176px;
+    padding: 12px 0 ;
+}
+
+.about.plan img{
+    height: 176px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about.look-all{
+    float: right;
 }

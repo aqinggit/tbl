@@ -1,11 +1,11 @@
 .parenting{
+
 }
 .parenting-space{
     margin: 6px;
 }
 .parenting .tlb-img{
     margin-bottom: 15px;
-    height: 176px;
 }
 .parenting .title-item{
     display: flex;
@@ -52,27 +52,16 @@
     border: none;
     width: 56px;
     height: 20px;
-    font-size: 14px;
 }
-.weui-navbar__item .item:active{
+.weui-bar__item--on:active{
     border-bottom: 3px orange solid !important ;
-        font-size: 14px;
-
-}
-.weui-navbar__item:active {
-    text-decoration: none;
-    background-color: #FFFFFF;
-}
-.weui-navbar__item.weui-bar__item--on:active {
-    text-decoration: none;
 }
 .weui-navbar__item.weui-bar__item--on {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom: 2px orange solid;
     text-decoration: none;
-    font-size: 14px;
-    /*width: 144px;*/
+
 }
 .weui-navbar {
     height: 42px;
