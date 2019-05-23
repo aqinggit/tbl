@@ -69,7 +69,7 @@
     padding: 25px;
 }
 
-.question-list .question-img img{
+.question-list .question-img img {
     height: 240px;
     width: 100%;
     border-radius: 15px;
@@ -110,6 +110,17 @@
     margin-bottom: 30px;
 }
 
+.question-list .discuss {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.question-list .discuss .count {
+    font-size: 24px;
+    color: #999999;
+}
+
+
 .icon1 {
     margin-right: 275px;
     margin-top: 31px;
@@ -132,10 +143,6 @@
 
 }
 
-.discuss {
-    margin-left: 25px;
-    margin-right: 25px;
-}
 
 .question-list-content {
     display: flex;
