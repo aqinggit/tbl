@@ -27,9 +27,12 @@
 .bg-ff9933 {
     background-color: #ff9933;
 }
-
+.full-time-teaching{
+    margin: 0 auto;
+    max-width: 750px;
+}
 .teach-container {
-    margin: 25px;
+   margin-bottom: 25px;
 }
 
 .teach {
