@@ -22,14 +22,14 @@ body {
     margin: 20px;
 }
 
-.gantong .item .title {
+.gantong .item .title{
     display: flex;
     height: 32px;
 
 }
 
 
-.gantong .item .title .content {
+.gantong .item .title h2 {
     margin-top: 8px;
     margin-left: 12px;
     flex: 1;
@@ -47,6 +47,138 @@ body {
 }
 
 
-.gantong .item .content{
-     margin: 0 14px;
+.gantong .item .content-detail {
+    margin-top: 19px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    padding: 14px 14px 0 14px;
+    border-radius: 15px;
+
+
+}
+.gantong .item .content-detail .description{
+    line-height: 22px;
+}
+.gantong .item .content-detail .surround {
+   display: flex;
+    justify-content: space-between;
+    padding: 0 0 8px 0;
+    margin-top: 10px;
+    height: 90px;
+
+}
+.gantong .item .content-detail .evaluate{
+        padding-bottom: 30px;
+}
+.gantong .item .content-detail .teaching{
+     justify-content: flex-start;
+
+}
+.gantong .item .content-detail .teaching .teaching-item{
+     width: 92px;
+
+}
+.gantong .item .content-detail .surround img{
+
+    height: 90px;
+    border-radius: 4px;
+}
+.gantong .item .teacher {
+    margin-top: 19px;
+    margin-bottom: 13px;
+    background-color: #FFFFFF;
+
+}
+.gantong .item .teacher img{
+    width: 73px;
+    height: 104px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 27px;
+}
+.gantong .item .teacher {
+    display: flex;
+    border-radius: 15px;
+
+}
+.gantong .item .teacher .teacher-detail{
+    padding-left: 20px;
+    padding-bottom: 13px;
+}
+.gantong .item .teacher .teacher-detail .name{
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+.gantong .item .teacher .teacher-detail .position{
+    background-color: #4ddea3;
+    padding: 2px 2px 5px 10px;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.gantong .item .teacher .teacher-detail .experience{
+    line-height: 20px;
+    margin-right: 5px;
+    /*margin-right: 7px;*/
+}
+.gantong .item .teacher-team {
+    display: flex;
+    background-color: #FFFFFF;
+    /*padding: 13px;*/
+    height: 130px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+
+}
+.gantong .item .teacher-team .teacher-team-content{
+    margin-right: 10px;
+
+}
+.gantong .item .teacher-team img{
+    width: 91px;
+    height: 91px;
+    border-radius: 4px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 125px;
+    margin-right: 13px;
+
+}
+.gantong .item .teacher-team .name{
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+}
+.gantong .item .teacher-team .experience{
+    line-height: 22px;
+    margin-left: 13px;
+    padding-bottom: 15px;
+
+}
+.gantong .advisory{
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(250, 207, 103, 1) 0%,rgba(255, 186, 89, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(250, 207, 103, 1) 0%, rgba(255, 186, 89, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(250, 207, 103, 1) ),color-stop(1,rgba(255, 186, 89, 1) ));
+    background : -o-linear-gradient(0deg, rgba(250, 207, 103, 1) 0%, rgba(255, 186, 89, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(250, 207, 103, 1) 0%, rgba(255, 186, 89, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FACF67', endColorstr='#FFBA59' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(250, 207, 103, 1) 0%, rgba(255, 186, 89, 1) 100%);
+    width: 201px;
+    height: 46px;
+    margin-top: 8px;
+    margin-left: 60px;
+    margin-bottom: 38px;
+    border-radius : 45px;
+    -moz-border-radius : 45px;
+    -webkit-border-radius : 45px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FACF67',endColorstr='#FFBA59' , GradientType=1);
+
+}
+input,button,select,textarea{
+    outline:none;
 }
