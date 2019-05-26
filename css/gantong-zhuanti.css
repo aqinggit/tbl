@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    min-width: 320px;
+    background-color: #e6f2ff;
+}
+
+.gantong {
+}
+
+.gantong.header {
+
+}
+
+.gantong.header img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+.gantong .item {
+    margin: 20px;
+}
+
+.gantong .item .title {
+    display: flex;
+    height: 32px;
+
+}
+
+
+.gantong .item .title .content {
+    margin-top: 8px;
+    margin-left: 12px;
+    flex: 1;
+}
+
+.gantong .item .title .number {
+    height: 32px;
+    font-weight: bold;
+}
+
+.gantong .item .title img{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+
+.gantong .item .content{
+     margin: 0 14px;
+}
