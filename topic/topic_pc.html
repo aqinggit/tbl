@@ -1,0 +1,617 @@
+<!DOCcause html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <style>
+
+        body {
+            background-color: rgb(238, 249, 252);
+            min-width: 1200px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+        .col1 {
+            background-color: rgb(244, 211, 14);
+
+        }
+
+        .border1 {
+            border: 1px rgb(244, 211, 14) solid;
+        }
+
+        .col2 {
+            background-color: rgb(252, 165, 203);
+
+        }
+
+        .border2 {
+            border: 1px rgb(252, 165, 203) solid;
+        }
+
+        .col3 {
+            background-color: rgb(141, 216, 237);
+
+        }
+
+        .border3 {
+            border: 1px rgb(141, 216, 237) solid;
+        }
+
+        .col4 {
+            background-color: rgb(207, 229, 84);
+
+        }
+
+        .border4 {
+            border: 1px rgb(207, 229, 84) solid;
+        }
+
+        .col5 {
+            background-color: rgb(247, 201, 77);
+
+        }
+
+        .border5 {
+            border: 1px rgb(247, 201, 77) solid;
+        }
+
+        .col-exp {
+            color: rgb(235, 201, 0);
+        }
+
+        .col-teacher-team {
+            color: rgb(241, 103, 163);
+        }
+
+        .col-evaluate {
+            color: rgb(34, 185, 227);
+        }
+
+        .col-profession {
+            color: rgb(207, 229, 84);
+        }
+
+        .nav-image {
+            width: 100%;
+        }
+
+        .expression {
+            width: 361px;
+        }
+
+        .expression img {
+            width: 361px;
+            margin-top: 90px;
+            margin-bottom: 33px;
+        }
+
+        .topic_pc .cause .title {
+            width: 361px;
+            margin: 70px auto 40px auto;
+            display: block;
+
+        }
+
+        .topic_pc .cause .content {
+            margin: 0 auto;
+
+        }
+
+        .topic_pc .harm {
+            width: 392px;
+
+        }
+
+        .topic_pc .harm .title {
+            width: 361px;
+            margin-top: 83px;
+        }
+
+        .topic_pc .harm .detail,
+        .topic_pc .improve .detail {
+            font-size: 20px;
+            font-family: MicrosoftYaHei;
+            margin-left: 25px;
+            margin-bottom: 42px;
+            text-align: center;
+        }
+
+        .topic_pc .improve {
+            width: 543px;
+        }
+
+        .topic_pc .improve .title {
+            width: 543px;
+            margin-top: 70px;
+        }
+
+
+        .topic_pc .content {
+            width: 956px;
+        }
+
+        .topic_pc .content img {
+            width: 956px;
+        }
+
+        .topic_pc .expression,
+        .topic_pc .content,
+        .topic_pc .harm,
+        .topic_pc .improve,
+        .topic_pc .introduction,
+        .topic_pc .teacher-team,
+        .topic_pc .evaluate,
+        .topic_pc .profession,
+        .topic_pc .advisory-tel,
+        .topic_pc .common-problem {
+
+            margin: 0 auto;
+        }
+
+        .topic_pc .bad-score {
+            width: 208px;
+            height: auto;
+
+        }
+
+        .topic_pc .type .bad-score .description {
+            font-size: 18px;
+            font-family: MicrosoftYaHei;
+            padding: 28px 0;
+            width: 208px;
+            text-align: center;
+
+
+        }
+
+        .topic_pc .type .bad-score .child {
+            width: 209px;
+
+        }
+
+        .topic_pc .type .bad-score .number {
+            width: 204px;
+            height: 50px;
+            text-align: center;
+            margin: 0 auto;
+            color: #fff;
+            font-family: MicrosoftYaHei;
+            font-size: 24px;
+            line-height: 50px;
+
+        }
+
+        .topic_pc .type {
+            margin: 0 auto;
+            display: flex;
+            width: 1200px;
+            justify-content: space-between;
+
+        }
+
+
+        .topic_pc .cause .content {
+            display: block;
+
+        }
+
+        .topic_pc .introduction {
+            display: flex;
+            width: 1200px;
+            height: 396px;
+            background-color: #fff;
+            border-radius: 12px;
+            border: 4px rgb(240, 225, 0) solid;
+            margin-bottom: 48px;
+        }
+
+        .topic_pc .introduction .hall,
+        .topic_pc .teacher-team .teacher-img {
+            margin-right: 42px;
+        }
+
+        .topic_pc .evaluate .teaching,
+        .topic_pc .profession .teaching {
+            margin-right: 45px;
+        }
+
+        .topic_pc .introduction .experience .title {
+            font-size: 30px;
+            line-height: 30px;
+            font-family: MicrosoftYaHei;
+            font-weight: bold;
+            margin: 36px 0 20px 0;
+        }
+
+        .topic_pc .introduction .experience .content {
+            font-size: 18px;
+            line-height: 35px;
+            width: 741px;
+            font-family: MicrosoftYaHei;
+            text-align: justify;
+            margin-bottom: 18px;
+        }
+
+        .topic_pc .introduction .experience .classroom {
+            display: flex;
+            width: 660px;
+            justify-content: space-between;
+            margin-left: 38px;
+        }
+
+        .topic_pc .teacher-team {
+            display: flex;
+            width: 1200px;
+            height: 396px;
+            background-color: #fff;
+            border-radius: 12px;
+            border: 4px rgb(241, 103, 163) solid;
+            margin-bottom: 48px;
+        }
+
+        .topic_pc .teacher-team .teacher .title {
+            font-size: 30px;
+            line-height: 30px;
+            font-family: MicrosoftYaHei;
+            font-weight: bold;
+            margin: 36px 0 25px 0;
+
+        }
+
+
+        .topic_pc .teacher-team .teacher .honor-title,
+        .topic_pc .teacher-team .teacher .honor-content {
+            font-size: 18px;
+            line-height: 35px;
+            width: 756px;
+            font-family: MicrosoftYaHei;
+            text-align: left;
+
+        }
+
+        .topic_pc .teacher-team .teacher .teacher-info {
+            margin: 0;
+            font-size: 18px;
+            width: 740px;
+            line-height: 35px;
+
+        }
+
+        .topic_pc .evaluate .evaluate-info .content,
+        .topic_pc .profession .profession-info .content {
+            font-size: 18px;
+            line-height: 35px;
+            width: 744px;
+            font-family: MicrosoftYaHei;
+            text-align: left;
+            height: 52px;
+            margin-bottom: 20px;
+        }
+
+        .topic_pc .teacher-team .teacher .honor-title {
+            font-weight: bold;
+            margin: 6px 0;
+        }
+
+        .topic_pc .teacher-team .teacher .honor-title,
+        .topic_pc .teacher-team .teacher .honor-content {
+            text-align: left;
+        }
+
+        .topic_pc .evaluate {
+            display: flex;
+            width: 1200px;
+            height: 396px;
+            background-color: #fff;
+            border-radius: 12px;
+            border: 4px rgb(34, 185, 227) solid;
+            margin-bottom: 48px;
+        }
+
+        .topic_pc .evaluate .evaluate-info .title,
+        .topic_pc .profession .profession-info .title {
+            font-size: 30px;
+            line-height: 30px;
+            font-family: MicrosoftYaHei;
+            font-weight: bold;
+            margin: 36px 0 20px 0;
+
+        }
+
+        .topic_pc .evaluate .evaluate-info .evaluate-title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 35px;
+            width: 744px;
+            font-family: MicrosoftYaHei;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .topic_pc .profession .profession-info .profession-title {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 35px;
+            width: 614px;
+            font-family: MicrosoftYaHei;
+            text-align: center;
+            margin-bottom: 10px;
+            /*margin: 0 auto;*/
+        }
+
+        .topic_pc .evaluate .evaluate-info .evaluate-img,
+        .topic_pc .evaluate .evaluate-info .evaluate-title {
+            width: 648px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 38px;
+        }
+
+        .topic_pc .profession .profession-info .profession-img,
+        .topic_pc .profession .profession-info .profession-title {
+            width: 614px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 38px;
+
+        }
+
+        .topic_pc .evaluate .evaluate-info .evaluate-title span {
+            width: 188px;
+            text-align: center;
+        }
+
+        .topic_pc .profession .profession-info .profession-title span {
+            background-color: rgb(207, 229, 84);
+            border-radius: 14px;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            display: block;
+            margin: 10px auto 5px auto;
+
+
+        }
+
+        .topic_pc .profession {
+            display: flex;
+            width: 1200px;
+            height: 396px;
+            background-color: #fff;
+            border-radius: 12px;
+            border: 4px rgb(207, 229, 84) solid;
+            margin-bottom: 48px;
+        }
+
+        .topic_pc .advisory-tel a {
+            font-size: 22px;
+            line-height: 45px;
+            height: 45px;
+            color: #fff;
+            background-color: rgb(43, 158, 218);
+            border-radius: 25px;
+            padding: 0 30px;
+            display: block;
+            width: 280px;
+            text-align: center;
+            margin: 0 auto;
+
+        }
+
+        .topic_pc .common-problem {
+            margin-top: 40px;
+        }
+
+        .topic_pc .common-problem .title {
+            width: 570px;
+            margin: 0 auto;
+            display: block;
+
+        }
+
+        .topic_pc .common-problem .content {
+            width: 976px;
+            height: 466px;
+            background-color: #fff;
+
+        }
+
+        .topic_pc .border-out {
+            width: 926px;
+            height: 420px;
+            position: relative;
+            left: 25px;
+            top: 20px;
+            border: 2px rgb(205, 175, 128) solid;
+        }
+
+        .topic_pc .border-inline {
+            width: 910px;
+            height: 412px;
+            position: relative;
+            left: 6px;
+            top: 2px;
+            border: 2px rgb(205, 175, 128) solid;
+        }
+
+        .topic_pc .common-problem .content .border-out .border-inline p {
+            font-size: 22px;
+            line-height: 45px;
+            color: rgb(51, 51, 51);
+            width: 628px;
+            height: 112px;
+            margin-top: 100px;
+            margin-left: 150px;
+        }
+
+        .topic_pc .common-problem .content .border-out .border-inline p span {
+            background-color: rgb(33, 173, 229);
+            border-radius: 23px;
+            height: 45px;
+            padding: 10px 15px;
+            color: #fff;
+
+        }
+
+        .topic_pc .common-problem .content .border-out .border-inline .detail {
+            background-color: rgb(33, 173, 229);
+            border-radius: 23px;
+            height: 45px;
+            color: #fff;
+            width: 243px;
+            text-align: center;
+            line-height: 45px;
+            margin: 85px auto 60px auto;
+        }
+
+    </style>
+</head>
+<body>
+<div class="topic_pc">
+    <img class="nav-image" src="../image/nav-img.png" alt="导航图片">
+    <div class="expression">
+        <img src="../image/title1.png" alt="表现标题">
+    </div>
+    <div class="content">
+        <img src="../image/content.png" alt="内容">
+    </div>
+    <div class="harm">
+        <img class="title" src="../image/title2.png" alt="危害标题">
+        <p class="detail">天才和庸才的差距，往往就在注意力！</p>
+    </div>
+    <div class="type">
+        <div class="bad-score border1">
+            <img class="child" src="../image/child1.png" alt="小孩">
+            <p class="description">学习成绩差</p>
+            <div class="number col1">1</div>
+        </div>
+        <div class="bad-score border2">
+            <img class="child" src="../image/child2.png" alt="小孩">
+            <p class="description">人际关系紧张</p>
+            <div class="number col2">2</div>
+        </div>
+        <div class="bad-score border3">
+            <img class="child" src="../image/child3.png" alt="小孩">
+            <p class="description">自信心不足</p>
+            <div class="number col3">3</div>
+        </div>
+        <div class="bad-score border4">
+            <img class="child" src="../image/child4.png" alt="小孩">
+            <p class="description">无法专心做一件事</p>
+            <div class="number col4">4</div>
+        </div>
+        <div class="bad-score border5">
+            <img class="child" src="../image/child5.png" alt="小孩">
+            <p class="description">情绪控制能力差</p>
+            <div class="number col5">5</div>
+        </div>
+
+    </div>
+    <div class="cause">
+        <img class="cause title" src="../image/title3.png" alt="标题">
+        <img class="cause content" src="../image/cause.png" alt="内容">
+    </div>
+    <div class="improve">
+        <img class="title" src="../image/title4.png" alt="标题">
+        <p class="detail">改善从天宝乐开始!</p>
+    </div>
+
+    <div class="introduction">
+        <img class="hall" src="../image/hall.png" alt="室内图片">
+        <div class="experience">
+            <p class="title col-exp">14年专业经验，有口皆碑</p>
+            <p class="content">
+                重庆天宝乐感统训练中心是重庆乃至西南地区专业的感统训练学校，专业致力于感统课程研究14年。在十多年时间里，天宝乐感统训练学校已经成功帮助了上千个家庭，解决掉孩子内在的不自信、怕生、胆小、专注力不好、语言发育迟缓等不好因素，拿掉了孩子的心里缺陷，健全了孩子的各项发展，得到了家长们的充分肯定。</p>
+            <div class="classroom">
+                <img src="../image/room1.png" alt="教室">
+                <img src="../image/room2.png" alt="教室">
+                <img src="../image/room3.png" alt="教室">
+            </div>
+        </div>
+    </div>
+    <div class="teacher-team">
+        <img class="teacher-img" src="../image/teacher.png" alt="教室团队">
+        <div class="teacher">
+            <p class="title col-teacher-team">感统专家坐镇＋优秀教师团队</p>
+            <p class="teacher-info">天宝乐感统训练总监：张海泉从事专业感统训练课程研究近20年，拥有丰富的教学经验。
+                独特的教学风格、专业严谨的教学态度深受学生和家长的喜爱。</p>
+            <p class="honor-title col-teacher-team">获得荣誉：</p>
+            <div class="honor-content">
+                <p>英国早期教育学校Early Years认证指导师；</p>
+                <p>美国High—Scope课程研究员；</p>
+                <p>ACEI中国区感觉统合培训师；</p>
+                <p>“情景”感觉统合课程创始人；</p>
+                <p>天宝乐拥有严格的教师选拔体系，层层筛选，经过严苛的职业技能培训考试才能获取教学资格。</p>
+            </div>
+        </div>
+    </div>
+    <div class="evaluate">
+        <img class="teaching" src="../image/teaching1.png" alt="教学">
+        <div class="evaluate-info">
+            <p class="title col-evaluate">阶段性评估、个性化教学</p>
+            <p class="content">天宝乐每个会员都拥有个性化的学前评估加上定期的过程性评估，真正做到量体裁衣，针对性的施教，保证每一个孩子都可以得到个性化和差异化的引导和教学。</p>
+            <div class="evaluate-title col-evaluate">
+                <span>学前评估</span>
+                <span>过程性评估</span>
+                <span>针对性施教</span>
+            </div>
+            <div class="evaluate-img">
+                <img src="../image/teaching2.png" alt="教学">
+                <img src="../image/teaching3.png" alt="教学">
+                <img src="../image/teaching4.png" alt="教学">
+            </div>
+        </div>
+    </div>
+    <div class="profession">
+        <img class="teaching" src="../image/proportion4.png" alt="教学">
+        <div class="profession-info">
+            <p class="title col-profession">阶段性评估、个性化教学</p>
+            <p class="content">1对2感统专业规划、1对4超小班制教学，精致的教学环境、严谨科学的师生配比，为宝宝的健康成长保驾护航。</p>
+            <div class="profession-title col-evaluate">
+                <span>1:2 教学</span>
+                <span>2:4 教学</span>
+
+            </div>
+            <div class="profession-img">
+                <img src="../image/proportion2.png" alt="教学">
+                <img src="../image/proportion3.png" alt="教学">
+            </div>
+        </div>
+    </div>
+    <div class="advisory-tel"><a>咨询热线：023-6187 1623</a></div>
+    <div class="cause">
+        <img class="title" src="../image/title5.png" alt="标题">
+        <img class="content" src="../image/content4.png" alt="内容">
+    </div>
+    <div class="common-problem">
+        <img class="title" src="../image/title6.png" alt="标题">
+        <div class="common-problem content">
+            <div class="border-out">
+                <div class="border-inline">
+                    <p><span>幼儿注意力训练</span>&nbsp;&nbsp;&nbsp;怎么集中孩子注意力&nbsp;&nbsp;&nbsp;孩子喜欢发脾气&nbsp;&nbsp;
+                        孩子感统训练&nbsp;&nbsp;&nbsp;孩子上课注意力不集中、发呆&nbsp;&nbsp;&nbsp;孩子做作业拖拉&nbsp;&nbsp;&nbsp;
+                        孩子上学注意力不集中怎么办&nbsp;&nbsp;&nbsp;孩子坐不住，淘气</p>
+                    <div class="detail">点击了解详情&nbsp;<img style="width: 21px;height: 11px" src="../image/jiantou.png"
+                                                         alt="箭头"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
